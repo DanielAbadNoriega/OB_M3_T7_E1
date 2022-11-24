@@ -17,3 +17,9 @@ console.log(family);
 //Modifica el Set original añadiendo el nombre "Javascript" (ya que empieza a formar parte de tu vida ;)
 family.add("Javascript");
 console.log(family);
+
+const arr_family = [...family];
+console.log(arr_family);
+
+const it_family = family.values();
+console.log(...it_family)
